@@ -64,7 +64,7 @@ const ProductDetails = ({ product, products }) => {
       <div className="product-detail-container">
         <div>
           <div className="image-container">
-            <img src={urlFor(image && image[index])} className="product-detail-image" />
+            <img src={urlFor(image && image[index])} className="product-detail-image" alt='product-detail' />
           </div>
           <div className="small-images-container">
             {image?.map((item, i) => (
@@ -74,6 +74,7 @@ const ProductDetails = ({ product, products }) => {
                 //if the i(index within the array) matches with the index state, it will have a special style that shows which image is being displayed on the main image container.
                 className={i === index ? 'small-image selected-image' : 'small-image'}
                 onMouseEnter={() => setIndex(i)}//every time the mouse enter to the img tag it will change the index state with the setIndex to the index of the array. 
+                alt='product small image'
               />
             ))}
           </div>
