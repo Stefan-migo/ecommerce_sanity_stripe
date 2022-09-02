@@ -1,6 +1,8 @@
 # Sound Tech Store
 
 Sound Tech Store is an e-commerce web app that works on top of Next.js, Sanity and Stripe technologies. 
+if you want to check a live version of this repository click the following link: 
+http://ecommerce-sanity-stripe-psi-five.vercel.app/
 
 ## Installation
 
