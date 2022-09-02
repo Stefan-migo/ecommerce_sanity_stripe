@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiFillInstagram, AiOutlineGithub, AiOutlineLinkedin} from 'react-icons/ai';
-import Link from 'next/Link';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
