@@ -101,7 +101,7 @@ onRemove wil accept one property "product", the one we want to remove from the c
       it will be true if both id's match, and it will give us back the product {object}
     second we create a newCartItems variable, this will be the a new array that contains all the products that already are in the cart, it also contains the modified product with the new quantity
       to do this, we set a newCartItems variable equals to cartItems state(array of product) and we apply the method map.
-      this method will check all the items'id within the array and it will work with the folowwing logic:#
+      this method will check all the items'id within the array and it will apply the folowwing logic:
         if one of the items'id inside of the array(cartItems) matches with the id of the product that we are modifying the quantity and also if the value of the property on toggleCartItemQuanitity is 'inc' then:
           return all the items from the cartItems, but to that one who matches the id, modify the quantity increasing it 1 unit 
         if one of the items'id inside of the array(cartItems) matches with the id(property) of the product that we are modifying the quantity, and also the value of the property on toggleCartItemQuanitity is 'dec' then:
